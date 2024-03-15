@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="titleheader">Achiever's Check</h1>
+     </div>
+    <div class="container">
+        <div class="input">
+            <div class="titlename">
+                <i class ="display">Title<br></i>
+                <input type="text" id="titletext" class="inputbtn">
+            </div>
+            <div class="titlename">
+                <i class ="display">Description<br></i>
+                <input type="text" id="descriptext" class="inputbtn">
+            </div>
+            <div class="titlename">
+                <i class ="display">Date<br></i>
+                <input type="date" id ="datedisplay" class="inputbtn">
+            </div>
+            <div class="submit" style="text-align: center;">
+                <button class="submitbtn">Add Note</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<img src="bars-icon.svg" alt="icon">
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #f0f2f5;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    background: white;
+    position: absolute;
+    top: 20%;
+}
+
+.header{
+    position: absolute;
+    left: 1%;
+    top: 2%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titlename{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.inputbtn{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.submitbtn{
+    width: 180px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
